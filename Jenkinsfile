@@ -22,7 +22,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                git(url: 'https://github.com/techsriman/urotaxijenkins.git', credentialsId: 'urotaxigitpat')
+                git(url: 'https://github.com/mankaripavan/urotaxijenkins.git', credentialsId: 'urotaxigitpat')
             }
         }
         stage('test') {
